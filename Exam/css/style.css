@@ -1,9 +1,12 @@
 *{
     box-sizing: border-box;
+    padding:  0 0;
+    margin: 0 0;
 
 }
 html{
     font-size: 62.5%;
+    width: 1400px;
 }
 .header{
     width: 100%;
@@ -124,14 +127,14 @@ html{
 
     }.home-image img{
         position: absolute;
-        left:50%;
+        left:750px;
         max-width:593px;
     }
     .home-content{
         position: absolute;
-        left: 25%;
-        bottom: 20%;
+        left: 400px;
         text-align: center;
+        bottom: 60%;
 
     }
     .home-content p{
@@ -182,12 +185,12 @@ html{
     display: flex;
     }.sale-image img{
         position: absolute;
-        left: 50%;
+        left: 750px;
         max-width:688px;
     }
     .sale-content{
         position: absolute;
-        left: 15%;
+        left: 400px;
         text-align: center;
         height: 450px;
     }
